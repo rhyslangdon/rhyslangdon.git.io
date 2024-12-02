@@ -1,0 +1,7 @@
+Reflection:
+I have decided to add a second image at the beginning of the website. 
+I hope to have animation and links for these photos in the final project. 
+I am also working on building a contact form which is in a comment at the bottom of my html.
+I've added a link to my photography website which I hope to recreate in the future by myself and integrate it into my web development website. 
+I changed the white background to a textured image to make the site more appealing.
+The font has also been changed for all titles and headings. 

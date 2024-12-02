@@ -1,0 +1,586 @@
+
+@media screen and (max-width: 768px) {
+    
+    .bona-nova-sc-regular {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+.border{
+    margin-top:4rem;
+    border: 5px;
+    border-color:darkmagenta;
+    border-style:groove
+    
+}
+
+
+
+
+body {
+    margin:  2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+    background-image: url("image.png");
+        background-size: cover;
+        background-position: center top;
+}
+.container {
+    
+    min-width: 360px;
+    max-width: 640px;
+    
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    
+   
+}
+
+img {
+    
+    max-width: 80%;
+    
+    border-color: burlywood;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    
+}
+h1{
+      font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+      }
+
+#nav{
+    color: black;
+    border: 3.5px solid burlywood;
+    border-radius: 8px;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    padding: 5px 5px 5px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 450;
+    font-style: normal;
+    text-decoration: none;
+    background-color: burlywood;
+    
+}
+
+#navbar-toggler:hover {
+    background-color: rgb(166, 166, 166);
+    animation: ease-in-out;
+    animation-duration: 6s;
+}
+
+.photography{
+    display: none;
+}
+
+.resume{
+    color: black;
+    text-decoration: none;
+    border: 3.5px solid burlywood;
+    border-radius: 8px;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    padding: 5px 5px 5px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 450;
+    font-style: normal;  
+     background-color: rgb(240, 240, 240);
+
+    background-color: burlywood;
+    
+   
+}
+
+
+
+
+ h2{
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    font-size:xx-large;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 450;
+    font-style: normal;
+} 
+
+
+#skills{
+    padding:1.5rem
+}
+
+.image2{
+    display: none;
+}
+
+h4{
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-family: "Libre Baskerville", serif;
+        font-weight: 450;
+        font-style: normal;
+        font-size: xx-large;
+}
+
+#reflection{
+    padding: 1.5rem;
+    
+}
+
+.reflectionLink{
+    text-decoration: none;
+    color: #02a152;
+}
+
+.reflectionLink:hover{
+color: #007906;}
+
+#contact{
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    font-size: larger;
+    font-family: "Libre Baskerville", serif;
+        font-weight: 450;
+        font-style: normal;
+        font-size: xx-large;
+}
+
+
+.contactInfo{
+    display:inline;
+    text-align:center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: large;
+}
+
+form{
+display: none;}
+
+}
+
+@media screen and (min-width: 768px){
+      
+    .bona-nova-sc-regular {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+      
+    header {
+       
+        display: flex;
+        background-color: burlywood;
+        
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    #headerorder{
+        display:flex;
+        
+    }
+    
+    body {
+        
+        margin:  2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgb(240, 240, 240);
+        align-items: center;
+        margin-right: 2rem;
+        margin-left: 2rem;
+
+        background-image: url("image.png");
+        background-size: cover;
+        background-position: center top; 
+
+    }
+    .container {
+        
+        min-width: 360px;
+        max-width: 1280px;
+        
+        text-align: center;
+        height: 100vh;
+        margin: 0 auto;
+        align-items: center;
+        
+       
+    }
+    
+    img {
+        
+        max-width: 100%;
+        min-width: 50%;
+        border-color: burlywood;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    img:hover{
+        transform: scale(1.02);
+    
+        transition:transform 0.4s ease;
+    
+    }
+
+    #image {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    .image2{
+      
+        padding: 5px;
+        align-items: center;
+    }
+    
+    
+    h1 {
+        text-align: center;
+        min-width: 50%;
+        background-color: burlywood;
+       margin: 1rem;
+        padding: 5px;
+        border-radius: 10px;
+        font-family: "Texturina", serif;
+        font-optical-sizing: auto;
+        font-weight:200;
+        font-style: normal;
+        font-size:larger;
+    }
+    h1{
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+            font-size: xx-large;
+          }
+    
+.homeLink{
+    text-decoration: none;
+    color: black;
+    
+}
+
+    #nav{
+        color: black;
+        border: 3.5px solid burlywood;
+        border-radius: 8px;
+        
+        padding: 5px 5px 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+        background-color: burlywood;
+               margin: 1rem;
+               align-content: center;
+               font-size: large;
+               font-size: 2cap; 
+
+    }
+
+   
+    
+.photography{
+    color: black;
+    border: 3.5px solid burlywood;
+    border-radius: 8px;
+    
+    padding: 5px 5px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+    background-color: burlywood;
+           margin: 1rem;
+           align-content: center;
+           font-size: large;
+           font-size: 2cap;
+           
+}
+
+#nav:hover{
+    transform: scale(1.05);
+    
+    transition:transform 0.4s ease;
+    color: white;
+    transition: color 0.25s ease-in;
+}
+
+    #navbar-toggler:hover {
+        background-color: rgb(166, 166, 166);
+        animation: ease-in-out;
+        animation-duration: 6s;
+        align-items: center;
+
+        
+    }
+    
+    .contactWord{
+        align-items: center;
+        text-align: center;
+        
+    }
+.photography:hover{
+    color: white;
+    transform: scale(1.05);
+    
+    transition:transform 0.4s ease;
+    color: white;
+    transition: color 0.25s ease-in;
+}
+
+
+    
+    .resume{
+        color: black;
+        text-decoration: none;
+        border: 3.5px solid burlywood;
+        border-radius: 8px;
+       
+        padding: 5px 5px 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 550;
+        background-color: burlywood;
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        font-size: 2cap;
+    
+    }
+    
+    .resume:hover{
+        color: white;
+        transform: scale(1.05);
+    
+    transition:transform 0.4s ease;
+    color: white;
+    transition: color 0.25s ease-in;
+    }
+    
+     h2{
+        text-align: center;
+        width: 100%;
+        background-color: burlywood;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+        border-radius: 10px;
+        font-size:xx-large;
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+            
+    
+    } 
+    
+    
+    #skills{
+        
+        max-width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    .Alignimg{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+
+
+.alignment{
+    align-items: unset;
+    align-items: normal;
+align-items: center;
+}
+
+    
+    h4{
+        text-align: center;
+        width: 100%;
+        background-color: burlywood;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+        border-radius: 10px;
+        font-size:xx-large;
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+    }
+    
+    #reflection{
+        align-items: center;
+        width: 100%;
+        
+    }
+    
+    .reflectionLink{
+        text-decoration: none;
+        color: #02a152;
+    }
+
+.reflectionLink:hover{
+    color: #007906;
+}
+
+    h5{
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+        border-radius: 10px;
+        font-size:xx-large;
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+    }
+
+    #contact{
+        text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 10px;
+    display: block;
+    font-size: larger;
+    font-family: "Libre Baskerville", serif;
+        font-weight: 450;
+        font-style: normal;
+        font-size: xx-large;
+background-color: burlywood;
+    }
+    
+ .contactInfo{
+        display:inline;
+        text-align:center;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: large;
+display: list-item;
+padding-bottom: 1rem;
+font-size: large;
+
+}
+
+form{
+    padding-bottom: 2rem;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  form {
+    border-radius: 10px;
+    background-color: rgba(27, 22, 22, .3);
+    padding: 20px;
+  }
+}
