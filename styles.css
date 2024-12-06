@@ -88,25 +88,12 @@ h1{
 
 
 #nav{
-    color: black;
-    border: 3.5px solid burlywood;
-    border-radius: 8px;
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-    padding: 5px 5px 5px;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 450;
-    font-style: normal;
-    text-decoration: none;
-    background-color: burlywood;
+    display:none
     
 }
 
 #navbar-toggler:hover {
-    background-color: rgb(166, 166, 166);
-    animation: ease-in-out;
-    animation-duration: 6s;
+    display: none;
 }
 
 .photography{
@@ -131,7 +118,10 @@ h1{
     
    
 }
+.resume:hover{
 
+    color: white;
+}
 
 
 
@@ -195,21 +185,20 @@ h4{
 color: #007906;}
 
 #contact{
-    text-align: center;
+   text-align: center;
     width: 80%;
     background-color: burlywood;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
     border-radius: 10px;
-    display: block;
-    font-size: larger;
+    font-size:xx-large;
     font-family: "Libre Baskerville", serif;
-        font-weight: 450;
-        font-style: normal;
-        font-size: xx-large;
+    font-weight: 450;
+    font-style: normal;
+        text-decoration: none;
 }
 
 
@@ -227,6 +216,58 @@ form{
 display: none;}
 
 }
+
+
+.DesktopContact{
+    display: none;
+}
+
+
+#mobilenav{
+    color: black;
+    border: 3.5px solid burlywood;
+    border-radius: 8px;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    padding: 5px 5px 5px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 450;
+    font-style: normal;
+    text-decoration: none;
+    background-color: burlywood;
+}
+
+#mobilenav:hover{
+    color: white;
+    
+}
+
+footer{
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    background-color: black;
+    /* width: 200%; */
+    padding: 0.5rem;
+    margin: none;
+    position: absolute;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    
+  }
 
 @media screen and (min-width: 768px){
       
@@ -290,9 +331,9 @@ display: none;}
     }
     
     img:hover{
-        transform: scale(1.02);
+        transform: scale(1.01);
     
-        transition:transform 0.4s ease;
+        transition:transform 0.2s ease;
     
     }
 
@@ -312,6 +353,7 @@ display: none;}
     h1 {
         text-align: center;
         min-width: 50%;
+        width: 100%;
         background-color: burlywood;
        margin: 1rem;
         padding: 5px;
@@ -372,17 +414,17 @@ display: none;}
 }
 
 #nav:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05);
     
-    transition:transform 0.4s ease;
+    transition:transform 0.15s ease; */
     color: white;
-    transition: color 0.25s ease-in;
+    transition: color 0.15s ease-in;
 }
 
     #navbar-toggler:hover {
         background-color: rgb(166, 166, 166);
         animation: ease-in-out;
-        animation-duration: 6s;
+        animation-duration: 0.15s;
         align-items: center;
 
         
@@ -395,11 +437,11 @@ display: none;}
     }
 .photography:hover{
     color: white;
-    transform: scale(1.05);
+    /* transform: scale(1.05);
     
-    transition:transform 0.4s ease;
+    transition:transform 0.15s ease; */
     color: white;
-    transition: color 0.25s ease-in;
+    transition: color 0.15s ease-in;
 }
 
 
@@ -423,11 +465,11 @@ display: none;}
     
     .resume:hover{
         color: white;
-        transform: scale(1.05);
+        /* transform: scale(1.05);
     
-    transition:transform 0.4s ease;
+    transition:transform 0.15s ease; */
     color: white;
-    transition: color 0.25s ease-in;
+    transition: color 0.15s ease-in;
     }
     
      h2{
@@ -523,18 +565,18 @@ align-items: center;
 
     #contact{
         text-align: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    border-radius: 10px;
-    display: block;
-    font-size: larger;
-    font-family: "Libre Baskerville", serif;
-        font-weight: 450;
-        font-style: normal;
-        font-size: xx-large;
-background-color: burlywood;
+        width: 100%;
+        background-color: burlywood;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+        border-radius: 10px;
+        font-size:xx-large;
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
     }
     
  .contactInfo{
@@ -596,4 +638,87 @@ input[type=text], select, textarea {
     background-color: rgba(27, 22, 22, .3);
     padding: 20px;
   }
+
+.contact, h5, .contactInfo{
+    display: none;
+}
+
+#contact{
+    display:none;
+}
+
+.DesktopContact,.wideContact{
+    text-align: center;
+        width: 100%;
+        background-color: burlywood;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+        border-radius: 10px;
+        font-size:xx-large;
+        font-family: "Libre Baskerville", serif;
+            font-weight: 450;
+            font-style: normal;
+            text-decoration: none;
+            color: black;
+            margin-bottom: none;
+}
+
+.wideContact:hover{
+    color: white;
+    
+    
+    
+    
+    transition: color 0.15s ease-in;
+}
+
+.DesktopContact:hover{
+    color: white;
+    
+    
+    
+    
+    transition: color 0.15s ease-in;
+    
+}
+
+
+#mobilenav{
+    display: none;
+}
+
+footer{
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    background-color: black;
+    /* width: 200%; */
+    padding: 0.5rem;
+    margin: none;
+    position: absolute;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    
+  }
+
+.fa:hover{
+transform: scale(1.2);
+transition: transform 0.25s;
+}
+
 }
