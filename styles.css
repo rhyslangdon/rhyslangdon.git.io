@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1180px) {
     
     .bona-nova-sc-regular {
         font-family: "Bona Nova SC", serif;
@@ -269,7 +269,7 @@ footer{
     
   }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1180px){
       
     .bona-nova-sc-regular {
         font-family: "Bona Nova SC", serif;
@@ -663,7 +663,7 @@ input[type=text], select, textarea {
             font-style: normal;
             text-decoration: none;
             color: black;
-            margin-bottom: none;
+            
 }
 
 .wideContact:hover{
@@ -691,11 +691,11 @@ input[type=text], select, textarea {
 }
 
 footer{
+   
     font-family: "Libre Baskerville", serif;
     color: white;
     background-color: black;
-    /* width: 200%; */
-    padding: 0.5rem;
+    padding: 0.2rem;
     margin: none;
     position: absolute;
     position: fixed;
