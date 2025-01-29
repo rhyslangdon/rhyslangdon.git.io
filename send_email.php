@@ -1,28 +1,34 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php'; // Ensure you have PHPMailer installed
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "rhyslangdon@hotmail.com"; // Your email
-    $from = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $firstName = htmlspecialchars($_POST["firstname"]);
-    $lastName = htmlspecialchars($_POST["lastname"]);
-    $service = htmlspecialchars($_POST["service"]);
-    $subject = "New Contact Request from Portfolio";
-    $message = htmlspecialchars($_POST["subject"]);
+    $mail = new PHPMailer(true);
+    try {
+        // SMTP Config
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com'; // Use your email provider's SMTP
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'your-email@gmail.com'; // Change to your email
+        $mail->Password   = 'your-email-password'; // Use an App Password for security
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
-    $headers = "From: $from\r\n";
-    $headers .= "Reply-To: $from\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+        // Email Content
+        $mail->setFrom($_POST["email"], $_POST["firstname"] . ' ' . $_POST["lastname"]);
+        $mail->addAddress('rhyslangdon@hotmail.com'); // Your receiving email
+        $mail->Subject = "New Contact Inquiry";
+        $mail->Body    = "Name: {$_POST["firstname"]} {$_POST["lastname"]}\n";
+        $mail->Body   .= "Email: {$_POST["email"]}\n";
+        $mail->Body   .= "Service: {$_POST["service"]}\n\n";
+        $mail->Body   .= "Message:\n{$_POST["subject"]}";
 
-    $fullMessage = "You have received a new message from your portfolio contact form.\n\n";
-    $fullMessage .= "Name: $firstName $lastName\n";
-    $fullMessage .= "Email: $from\n";
-    $fullMessage .= "Service Requested: $service\n\n";
-    $fullMessage .= "Message:\n$message\n";
-
-    // Send email
-    if (mail($to, $subject, $fullMessage, $headers)) {
-        echo "Thank you! Your message has been sent.";
-    } else {
-        echo "Oops! Something went wrong, and we couldn't send your message.";
+        $mail->send();
+        echo "Message sent successfully!";
+    } catch (Exception $e) {
+        echo "Message could not be sent. Error: {$mail->ErrorInfo}";
     }
 } else {
     echo "Invalid request.";
