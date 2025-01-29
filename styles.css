@@ -729,4 +729,12 @@ transform: scale(1.2);
 transition: transform 0.25s;
 }
 
+.miniGame{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    border: white;
+    
+}
+
 }
